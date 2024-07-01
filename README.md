@@ -29,3 +29,7 @@ y1[g] ~ Poisson_log($\mu\$ + $home\$ + att[h[g]] + def[a[g]])
 
 y2[g] ~ Poisson_log($\mu\$ + att[a[g]] + def[h[g]])
 
+<div style="text-align:center">
+<img src="images/graphviz.png" alt="The directed acyclic graph (DAG) representation of the hierarchical model" width="600" height="400">
+</div>
+
