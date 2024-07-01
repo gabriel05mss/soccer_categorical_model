@@ -1,4 +1,7 @@
 # soccer_categorical_model
+[![R](https://img.shields.io/badge/R-Programming-blue)](https://www.r-project.org/)
+[![Applied Statistics](https://img.shields.io/badge/Journal-Applied%20Statistics-blue)](https://www.tandfonline.com/doi/full/10.1080/02664760802684177)
+[![Stan](https://img.shields.io/badge/Stan-Modeling-orange)](https://mc-stan.org/)
 
 This model was developed using Bayesian statistics. The main idea of the project is to apply the model to football. The model creates a latent variable that can classify the game into three classes—loss, draw, and win using the home team as a reference. Throughout this project, I developed skills in Bayesian inference and the ability to generate synthetic data.
 
@@ -40,3 +43,15 @@ P\(Y \leq j) = \frac{\exp(\alpha_j\ - (att_h + def_a) * \beta_1 - (att_a + def_h
 $$
 
 From this model, we estimate the cut points "c" on a latent variable.
+
+## Contact
+
+email : gmoreira.silva2005@gmail.com
+
+linkedin : www.linkedin.com/in/gabriel-moreira-73341a23b
+
+## References
+
+an introduction to categorical data analysis 3rd edition, alan agresti
+
+Journal of Applied Statistics, 2010, http://dx.doi.org/10.1080/02664760802684177
