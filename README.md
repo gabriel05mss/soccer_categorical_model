@@ -21,4 +21,11 @@ $y_2\$ -> number of goals scored by the away team;
 
 $R\$ -> match result with the home team as the reference (1 for home team loss, 2 for draw, and 3 for home team win). With this data, the execution begins.
 
+## Model Equation
+
 Firstly, the attack and defense effects for each team are calculated using a poisson_log model, which takes the following form:
+
+y1[g] ~ Poisson_log($\mu\$ + $home\$ + att[h[g]] + def[a[g]])
+
+y2[g] ~ Poisson_log($\mu\$ + att[a[g]] + def[h[g]])
+
