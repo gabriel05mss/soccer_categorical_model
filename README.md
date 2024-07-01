@@ -33,3 +33,10 @@ y2[g] ~ Poisson_log($\mu\$ + att[a[g]] + def[h[g]])
 <img src="images/graphviz.png" alt="The directed acyclic graph (DAG) representation of the hierarchical model" width="600" height="400">
 </div>
 
+After estimating the attack and defense effects, we proceed to the ordered cumulative logistic model, which follows this formula:
+
+$$
+P\(Y \leq j) = \frac{\exp(\alpha_j\ - (att_h + def_a) * \beta_1 - (att_a + def_h) * beta_2}{1 + \exp(\alpha_j\ - (att_h + def_a) * \beta_1 - (att_a + def_h) * beta_2}
+$$
+
+From this model, we estimate the cut points "c" on a latent variable.
